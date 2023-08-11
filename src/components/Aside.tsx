@@ -7,6 +7,7 @@ function Aside({ children }: { children?: React.ReactNode }) {
             <h3 className="text-lg border-b border-gray-100">Properties</h3>
             <div className="mt-2" />
             {children}
+
         </aside>
     )
 }
